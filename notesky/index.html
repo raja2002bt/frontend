@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOTESKY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Notesky</h1>
+
+    </div>
+    <div class="container">
+        <div class="book-container">
+        <h2>Almost everything!,everything you need to know</h2>
+        <h5>Kavin</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius distinctio similique ducimus tempore praesentium quasi nihil rem est? Doloremque ratione animi voluptate tempora ut excepturi libero quis! Ipsum, nihil modi!</p>
+        <button onclick="deletebook(event)">Delete</button>
+    </div>
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>Add Note</h2>
+        <form>
+            <input type="text" placeholder="Title" id="book-title-input">
+            <input type="text" placeholder="Author" id="book-author-input">
+            <textarea placeholder="Short dscription " id="book-dscription-input"></textarea>
+            <button id="add-book">Add</button>
+            <button id="cancel-popup">Cancel</button>
+        </form>
+    </div>
+
+    <button class="add-button" id="add-popup-button">+</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
