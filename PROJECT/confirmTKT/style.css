@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    color: #333;
+    padding:15px;
+}
+li,ul{
+    display: inline;
+}
+ul{
+    margin-left: 20%;
+}
+.navop{
+    margin: 10px;
+    padding: 5px;
+    font-family:sans-serif;
+    font-size: 14px;
+    
+}
+.navimg{
+    width: 150px;
+    margin-left: 20%;
+}
+li:hover{
+    color: green;
+    cursor: pointer;
+}
+.rana{
+    width: 149px;
+    height: 163px;
+}
+.header{
+    text-align: left;
+    position: relative;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: green;
+    font-family: sans-serif;
+}
+h2{
+    color: #333;
+    font-family: sans-serif;
+}
+main {
+    display: block;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+label, input {
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    border-radius: 10px;
+    background-color: green;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.desktop_icc_banner img{
+    display: flex;
+    flex-basis: 100%;
+    
+}
+.irctclogo{
+    margin-top: 12px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+
+}
+.worldcupadd{
+    margin-top: 12px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content:center;
+}
+.optionhead{
+    color: #333;
+    margin-top: 12px;
+    margin-left: 20%;
+    margin-bottom: 24px;
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+.empty{
+    width: 780px;
+    height: 206px;
+    background-color:#cfe6cd ;
+    margin-left: -70%;
+    position: absolute;
+    display: inline;
+}
+  
+footer{
+    display: flex;
+    position: relative;
+    margin-top: 100px;
+    margin-left:40%;
+    background-color: #cfe6cd;
+}
+
+.mob{ 
+    margin-top: -300px;
+    margin-left: 25%;
+    position:relative;
+}
