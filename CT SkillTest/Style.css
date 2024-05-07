@@ -1,0 +1,355 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+          
+          .wrap {
+            width: 100%;
+            margin: 0 auto;
+          }
+          
+          .header {
+            position: relative;
+            height: 60vh;
+            overflow: hidden;
+          }
+          
+          .header img.heroImg {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top center;
+          }
+          
+          .header div.nav {
+            position: absolute;
+            top: 0;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 850px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 0 2%;
+          }
+          
+          div.nav img {
+            width: 30px;
+            height: 30px;
+          }
+          
+          div.nav ul {
+            display: flex;
+            align-items: center;
+          }
+          
+          div.nav ul li {
+            list-style-type: none;
+          }
+          
+          div.nav ul li a {
+            text-decoration: none;
+            font-size: 10px;
+            color: white;
+            font-style: italic;
+            text-decoration-line: underline;
+            margin: 0 15px;
+          }
+          
+          div.section {
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 850px;
+            background-color: white;
+            margin: 0 auto;
+            padding: 1% 2%;
+          }
+          
+          div.section img {
+            object-fit: cover;
+          }
+          
+          div.section ul {
+            display: flex;
+            align-items: center;
+          }
+          
+          div.section ul li {
+            list-style-type: none;
+          }
+          
+          div.section ul li a {
+            text-decoration: none;
+            font-size: 10px;
+            color: black;
+            font-style: italic;
+            text-decoration-line: underline;
+            margin: 0 15px;
+          }
+          
+          div.history {
+            position: relative;
+            height: 60vh;
+          }
+          
+          div.history img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top center;
+          }
+          
+          div.history .desc {
+            position: absolute;
+            top: 40px;
+            width: 90%;
+            max-width: 850px;
+            left: 50%;
+            transform: translateX(-50%);
+          }
+          
+          .desc h1 {
+            font-size: 50px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: rgba(0, 0, 0, 0.316);
+            position: relative;
+            margin: 0;
+            padding: 0;
+          }
+          
+          .desc h1 span {
+            position: absolute;
+            font-size: 20px;
+            color: rgba(0, 0, 0, 0.542);
+            letter-spacing: 1px;
+            left: 48px;
+            bottom: 20px;
+          }
+          
+          .history .desc p {
+            font-size: 13px;
+            margin-top: -10px;
+            margin-left: 50px;
+            color: rgba(0, 0, 0, 0.556);
+          }
+          
+          div.history .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 130px;
+            background-color: rgba(26, 26, 39, 0.768);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+          }
+          
+          .footer div.slideWrap {
+            width: 100%;
+            max-width: 850px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+          }
+          
+          .footer .firstSlide,
+          .footer .secondSlide,
+          .footer .thirdSlide,
+          .footer .fourthSlide{
+            width: 100%;
+            height: 80px;
+            max-width: 180px;
+            background-image: url('images/peak_2.jpg');
+            background-size: cover;
+            background-position: top center;
+          }
+          
+          .footer .secondSlide{
+            background-image: url('images/rectangle_23.jpg');
+            background-size: cover;
+            background-position: top center;
+          }
+          
+          .footer .thirdSlide{
+            background-image: url('images/rectangle_23_copy.jpg');
+            background-size: cover;
+            background-position: top center;
+          }
+          
+          .footer .fourthSlide{
+            background-image: url('images/peak_2.jpg');
+            background-size: cover;
+            background-position: top center;
+          }
+          
+          .footer .slideIndicator{
+            height: 20px;
+            display: flex;
+            align-items: center;
+          }
+          
+          .footer .slideIndicator span {
+            display: block;
+            width: 5px;
+            height: 5px;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.474);
+            margin: 0 2px;
+          }
+          
+          .slideIndicator span.active {
+            background: white;
+          }
+          
+          div.climbSection .desc {
+            width: 90%;
+            max-width: 850px;
+            margin: 0 auto;
+          }
+          
+          div.climbSection .desc p {
+            font-size: 13px;
+          }
+          
+          div.mountainNav {
+            background-color: rgba(26, 26, 39, 0.768);
+            margin-top: 20px;
+          }
+          
+          .mountainNav ul {
+            width: 100%;
+            max-width: 920px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+          }
+          
+          .mountainNav ul li {
+            list-style-type: none;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: rgba(255, 255, 255, 0.631);
+            padding: 0 10px;
+            line-height: 30px;
+          }
+          
+          .mountainNav ul li.active {
+            list-style-type: none;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-color: rgba(255, 255, 255, 0.631);
+            color: rgba(26, 26, 39, 0.768);
+            text-decoration: underline;
+            padding: 0 10px;
+          }
+          
+          div.schedule {
+            position: relative;
+            height: 60vh;
+          }
+          
+          div.schedule img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: bottom center;
+          }
+          
+          div.scheduleBox {
+            position: absolute;
+            top: 20%;
+            left: 20%;
+            padding: 10px 20px;
+            background: white;
+            width: 90%;
+            max-width: 250px;
+          }
+          
+          .scheduleBox h2 {
+            color: rgba(26, 26, 39, 0.768);
+          }
+          
+          .scheduleBox p {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 11px;
+            margin: 10px 0;
+          }
+          
+          div.pageFooter {
+            background-color: rgba(26, 26, 39, 0.768);
+          }
+          
+          .pageFooter .logoAndText {
+            width: 100%;
+            height: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            margin: 0 auto;
+          }
+          
+          .logoAndText img {
+            width: 30%;
+            max-width: 60px;
+            object-fit: cover;
+          }
+          
+          .logoAndText p {
+            font-size: 10px;
+            color: rgba(255, 255, 255, 0.433);
+          }
+          
+          /* For screens of 700px width and above */
+          @media screen and (min-width: 700px) {
+            .header {
+              height: 80vh;
+            }
+          
+            div.history {
+              height: 85vh;
+            }
+          
+            div.climbSection .desc {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            }
+          
+            div.climbSection .desc p {
+              margin-left: 70px;
+            }
+          
+            .pageFooter .logoAndText {
+              flex-direction: row;
+            }
+          
+            .logoAndText img {
+              max-width: 100px;
+            }
+          
+            .desc h1 {
+              font-size: 100px;
+            }
+          
+            .desc h1 span {
+              left: 95px;
+              bottom: 40px;
+            }
+          
+            .history .desc p {
+              font-size: 15px;
+            }
+          
+            div.climbSection .desc p {
+              font-size: 15px;
+            }
+          }
