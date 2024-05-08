@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* h1 {
+            color: red;
+
+        }
+
+        @media screen and (max-width:600px) {
+            h1 {
+                color: blue;
+            }
+        }
+        @media screen and (max-width:400px) {
+            h1 {
+                color: yellow;
+            }
+            } */
+        /* div {
+            background-color: black;
+            height: 100px;
+        } */
+
+        /* @media screen and (max-width:1500px) {
+            div {
+                background-color: rgb(242, 242, 6);
+            }
+        }
+
+        @media screen and (max-width:800px) {
+            div {
+                background-color: blue;
+            }
+        }
+
+        @media screen and (max-width:400px) {
+            div {
+                background-color: red;
+            }
+        } */
+
+
+
+        /* div {
+            background-color: red;
+
+        }
+
+        @media screen and (min-width:600px) {
+            div {
+                background-color: blue;
+            }
+        }
+
+
+        @media screen and (min-width:1000px) {
+            div {
+                background-color: yellow;
+            }
+        } */
+
+
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .green{
+            background-color: green;
+            height: 200px;
+            flex-basis: 100%;
+        }
+        .blue{
+            margin: 2px;
+            background-color: aqua;
+            height: 200px;
+            flex-basis: 33%;
+            flex-grow: 1;
+        }
+        .gray{
+            margin: 2px;
+            background-color: gray;
+            height: 200px;
+            flex-basis: 22%;
+            flex-grow: 1;
+        }
+        @media screen and (max-width:10 00px){
+            .green{
+                flex-basis: 100%;
+            }
+            .blue{
+                flex-basis: 100%;
+            }
+            .gray{
+                flex-basis: 40%;
+            }
+        }
+        @media screen and (max-width:600px){
+            .green{
+                flex-basis: 100%;
+            }
+            .blue{
+                flex-basis: 100%;
+            }
+            .gray{
+                flex-basis: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <h1>
+        hello
+    </h1> -->
+
+    <!-- <div>
+    </div> -->
+
+
+<div class="container">
+    <div class="green"></div>
+    <div class="blue"></div>
+    <div class="blue"></div>
+    <div class="blue"></div>
+    <div class="gray"></div>
+    <div class="gray"></div>
+    <div class="gray"></div>
+    <div class="gray"></div>
+</div>    
+
+
+</body>
+
+</html>

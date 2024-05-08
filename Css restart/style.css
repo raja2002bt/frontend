@@ -1,0 +1,145 @@
+/* div{
+    background-color:green;
+    height: 300px;
+    width: 300px;
+} */
+/* .one{
+    color: rgb(212, 232, 60);
+} */
+/* #two{
+    color: aqua;
+} */
+/* *{
+    color: red;
+} */
+
+
+/* BOX MODEL */
+/* .one{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+.two{
+    margin-top: 50px;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+} */
+
+/* .one{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: aliceblue;
+    background-color: black;
+    width: 200px;
+    height: 300px;
+} */
+
+/* .two{
+    margin: 40px;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+} */
+
+/* .one{
+    color: yellow;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.two{
+    background-color: bisque;
+    margin: 20px;
+    border-style:solid ;
+    border-width: 10px;
+    text-align: center;
+} */
+
+
+/* Display property */
+
+/* h1{
+    background-color: blueviolet;
+    display: inline;
+}
+p{
+    background-color: blue;
+    display: inline-block;
+    width: 50px;
+    height: 60px;
+}
+div{
+    background-color: pink;
+    display: block;
+} */
+
+/* 
+.black{
+    background-color: black;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+.red{
+    background-color: red;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+.one{
+    background-color: yellow;
+    display: inline;
+
+}
+.two{
+    background-color: red;
+    display: inline;
+} */
+
+/* .one{
+    padding: 5px;
+    color: aliceblue;
+    background-color: black;
+    display: inline;
+    
+}
+.two{
+    padding: 5px;
+    color: aliceblue;
+    background-color: black;
+    display: inline;
+    margin-left: 60px;
+}
+.three{
+    padding: 5px;
+    color: aliceblue;
+    background-color: black;
+    display: inline;
+    margin-left: 60px;
+} */
+
+
+nav{
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+    border-style: solid;
+    border-color: gray;
+}
+.head{
+    display: inline;
+    margin-right: 60%;
+
+}
+ul{
+    display: inline;
+}
+li{
+display: inline;
+margin-right: 50px;
+}

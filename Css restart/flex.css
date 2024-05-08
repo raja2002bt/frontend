@@ -1,0 +1,232 @@
+/* h1{
+    color: white;
+    background-color: black;
+    margin: 1px;
+
+}
+.head1{
+    background-color: yellowgreen;
+    display: flex;
+    width: 200px;
+    flex-direction: row;
+    flex-wrap: wrap;   
+} */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: darkslategray;
+    color: aliceblue;
+}
+
+/*     
+.title{
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+.container{
+    
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+    
+}
+.container div{
+    width: 200px;
+    flex-basis: 20%;
+    flex-grow: 1;
+
+} */
+
+
+/* h1{
+    background-color: rgb(255, 28, 3);
+    color: aliceblue;
+    margin: 5px;
+    flex-basis: 20%;
+    flex-grow: 1;
+}
+.container{
+    display: flex;
+    flex-wrap:wrap;
+    
+
+} */
+/* body{
+    background-color: aqua;
+    
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    
+}
+.container{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container h1{
+    width: 200px;
+    height: 10px;
+    background-color: chocolate;
+    border-radius: 20px;
+} */
+
+.container {
+    border: 5px solid black;
+}
+
+.flex-item {
+    font-size: 18px;
+    padding: 16px;
+    text-align: center;
+}
+
+.box-1 {
+    background-color: blue;
+}
+
+.box-2 {
+    background-color: red;
+}
+
+.box-3 {
+    background-color: gold;
+}
+
+.box-4 {
+    background-color: orange;
+}
+
+.box-5 {
+    background-color: purple;
+}
+
+.box-6 {
+    background-color: pink;
+}
+
+.box-7 {
+    background-color: mediumvioletred;
+}
+
+.box-8 {
+    background-color: magenta;
+}
+
+.box-9 {
+    background-color: greenyellow;
+}
+
+/*-----------------------------------------------*/
+
+.container {
+    height: 400px;
+    /* display: inline-flex; */
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse;*/
+    /* flex-direction: column; */
+    /*flex-direction: column-reverse; */
+    /* flex-wrap: wrap; */
+    /*flex-wrap: wrap-reverse; */
+    /* flex-flow:row nowrap;
+    flex-flow: row wrap;
+    flex-flow: row wrap-reverse;  
+    flex-flow: column nowrap;
+    flex-flow: column wrap;
+    flex-flow: column wrap-reverse; */
+    /* row-gap: 20px;
+    column-gap: 20px;
+    gap: 40px 20px; */
+
+
+    /* flex-direction: row;              
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: space-between; */
+
+    /* flex-direction: column;
+    height: 600px;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: space-between; */
+
+
+    /* flex-direction: row;
+    height: 600px;
+    align-items: stretch;
+    align-items: flex-end;
+    align-items: flex-start;
+    align-items: center;
+    align-items: baseline; */
+
+
+    /* flex-direction: column; */
+    /* height: 600px; */
+    /* align-items: stretch;
+    align-items: flex-start;
+    align-items: flex-end; */
+
+    /* flex-wrap: wrap;
+    align-content: stretch;
+    align-content: flex-start;
+    
+    justify-content: center;
+    align-content: center; */
+
+    /* align-content: space-between;
+    align-content: space-around; */
+}
+
+/* .box-1{font-size: 45px;} */
+
+
+/*---------------------------------------------*/
+
+
+/* .box-1 {order: 4;}
+.box-2 {order: 1;}
+.box-3 {order: 2;}
+.box-4 {order: 5;}
+.box-5 {order: 3;} */
+
+
+/* .box-1{flex-grow: 1;}
+.box-2{flex-grow: 2;}
+.box-3{flex-grow: 3;}
+.box-4{flex-grow: 4;}
+.box-5{flex-grow: 5;}
+.flex-item{flex-grow: 1;} */
+
+
+/* .flex-item{
+    flex-shrink:0 ;
+} */
+
+.box-1{align-self: auto;}
+.box-2{align-self: flex-start;}
+.box-3{align-self: flex-end;}
+.box-4{align-self: center;}
