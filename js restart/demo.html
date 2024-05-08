@@ -1,0 +1,324 @@
+<!-- <h1 id="title">
+ Hello World
+</h1>
+
+
+<script>
+    var print=document.getElementById("title")
+    console.log(print.textContent)
+    print.textContent="bye"
+</script> -->
+
+<!-- <p id="one">
+    Hello..
+</p>
+<script>
+
+var para = document.getElementById("one")
+console.log(para.textContent)
+para.textContent="bye"
+
+</script> -->
+
+<!-- Event handling -->
+
+<!-- <h1 id="title">
+    Hello World
+   </h1>
+   <button onclick="change()">Change</button>
+   <script>
+       var print=document.getElementById("title")
+       console.log(print.textContent)
+       function change()
+       {
+       print.textContent="Bye World"
+       }
+       
+   </script> -->
+
+   <!-- <input id="num1" >
+   <input id="num2" >
+   <button onclick="resultfunction()">Add</button>
+   <p id="result">result </p>
+
+   <script>
+   
+
+    var box1=document.getElementById("num1")
+    var box2=document.getElementById("num2")
+    var result=document.getElementById("result")
+function resultfunction()
+{ 
+   var box1value=Number(box1.value)
+   var box2value=Number(box2.value)
+   
+   var total=box1value+box2value
+   result.textContent=total
+}
+   </script> -->
+
+
+
+
+<!-- <input id="num1">
+<input id="num2">
+<button onclick="multiply()">Multiply</button>
+<p id="result">Result</p>
+<script>
+  
+
+    var box1= document.getElementById("num1")
+    var box2= document.getElementById("num2")
+    var result= document.getElementById("result")
+    function multiply(){
+    var box1value=Number(box1.value)
+    var box2value=Number(box2.value)
+    
+    var total=box1value*box2value
+    result.textContent=total
+}
+</script> -->
+
+
+
+
+<!-- GUESS THE NUMBER FROM 1 TO 10 -->
+
+<!-- <h1>Guess the Number from 1 to 10 </h1>
+<input id="guessnumber" placeholder="Enter a number">
+<button onclick="check()">Check</button>
+<p id="result">You are Right / Wrong!</p>
+<p id="score">Your Score</p> 
+<script>
+
+    var guessnumber=document.getElementById("guessnumber")
+    var result=document.getElementById("result")
+    var score=document.getElementById("score")
+
+    var randomnumber=Math.floor(Math.random()*10)+1
+    var totalscore=10
+    function check(){
+        
+        var enterednumber=guessnumber.value
+        if(randomnumber==enterednumber) 
+        {
+            console.log("Right")
+            console.log(randomnumber)
+            result.textContent="You are Right!"
+            alert(("You Won!"))
+            
+        }
+        else{
+            totalscore=totalscore-1
+            console.log("Wrong")
+            console.log(randomnumber)
+            result.textContent="You are Wrong."
+            score.textContent="Your score:"+totalscore
+        
+        }
+
+    } 
+
+</script> -->
+
+
+<!-- <h1>Guess the number from 1 to 10</h1>
+<input id="inputnum">
+<button onclick="check()">Check</button>
+<p id="result">You are Won / Loss</p>
+<p id="score"> Your Score</p>
+<script>
+    var inputnumber=document.getElementById("inputnum")
+    var result=document.getElementById("result")
+    var score=document.getElementById("score")
+    var randomnumber=Math.floor(Math.random()*10)+1
+    var totalscore=10
+    function check(){
+         var enterednumber=inputnumber.value
+         console.log(randomnumber)
+        if (randomnumber==enterednumber)
+        {
+            
+            result.textContent="You are win"
+            alert("Your win!")
+        }
+        else{
+            result.textContent="You are Loss"
+            totalscore=totalscore-1
+            score.textContent="Score :"+totalscore
+        }
+    }
+
+</script> -->
+
+
+<!-- <style>
+    div{
+        background-color: black;
+        height: 100px;
+        width: 100px;
+        
+    
+    }
+    .width{
+        width:500px;
+        transition: 2s;
+    }
+</style>
+<div id="box" ></div>
+<button onclick="change()">Change</button>
+<script>
+    var box=document.getElementById("box")
+    function change(){
+         box.style.backgroundColor="red"
+         box.setAttribute("class","width")
+    }
+</script> -->
+
+
+<!-- TASK-1 -->
+
+<!-- <input id="inputnumber" onkeyup="handclick()">
+
+<h1 id="header"></h1>
+<script>
+    var inputnumber=document.getElementById("inputnumber")
+    var header=document.getElementById("header")
+    function handclick(){
+     header.textContent=inputnumber.value
+
+    }
+</script> -->
+
+
+
+<!-- TASK-2 -->
+
+<!-- <button onclick="update()">Add</button>
+<div id="result"></div>
+<script>
+    var div=document.getElementById("result")
+    function update(){
+        var listitem=document.createElement("h1")
+        listitem.textContent="Hello"
+        div.append(listitem)
+    }
+</script> -->
+
+
+<!-- TASK-3 -->
+
+<!-- <style>
+    button{
+        padding: 5px;
+        background-color: aqua;
+        border-radius: 10px;
+    }
+</style>
+<button id="btn" onclick="update()">changecolor</button>
+<script>
+    var btn=document.getElementById("btn")
+    function update(){
+        btn.style.backgroundColor="red"
+
+    }
+</script> -->
+
+
+
+<!-- Task-4 -->
+
+
+<!-- <h1 id="head">Name</h1>
+<button onclick="change1(event)">Raja</button>
+<button onclick="change2(event)">Prathee</button>
+<button onclick="change2(event)">Manoj</button>
+<button onclick="change2(event)">Sunil</button>
+<script>
+    var head=document.getElementById("head")
+    
+ function change1(event){
+    console.log(event)
+    head.textContent=event.srcElement.textContent
+ }    
+ function change2(event){
+    head.textContent=event.target.textContent
+    
+}    
+ 
+</script> -->
+
+
+
+<!-- TASK-5 -->
+
+<!-- <h1  onclick="del(event)" >one</h1>
+<h1  onclick="del(event)">two</h1>
+<h1  onclick="del(event)">three</h1>
+<h1  onclick="del(event)">four</h1>
+<h1  onclick="del(event)">five</h1>
+
+<script>
+    
+    function del(event){
+        
+      event.target.remove()
+    }
+</script> -->
+
+
+
+
+<!-- INNER HTML -->
+
+
+<!-- <div id="one">
+    <h1>HELLO</h1>
+</div>
+
+<script>
+    var result=document.getElementById("one")
+    console.log(result.innerHTML)
+</script> -->
+
+
+<!-- QuerySelector & QuerySelectorAll -->
+
+<!-- <h1 class="ok">One</h1>
+<h1 class="ok">Two</h1>
+<h1 class="ok">Three</h1>
+<script>
+    var result=document.querySelectorAll(".ok");
+    for( var i=0;i<result.length;i++)
+    {
+     console.log(result[i].textContent);
+    }
+</script> -->
+
+
+
+<!-- Append & Prepand-->
+<!-- <div >
+    <h1>Raja</h1>
+</div>
+
+<script>
+    var result=document.querySelector("div")
+    result.append("hello")
+    result.append("hello")
+    result.append("hello")
+    result.prepend("hello")
+    result.prepend("hello")
+    result.prepend("hello")
+</script> -->
+
+<!-- <div >
+    <h1>Raja</h1>
+</div>
+
+<script>
+    var result=document.querySelector("div")
+    var h1=document.createElement("h1")
+    h1.textContent="hello"
+    result.insertAdjacentElement("before",h1)
+</script> -->
